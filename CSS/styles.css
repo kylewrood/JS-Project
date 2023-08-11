@@ -1,0 +1,54 @@
+.game_container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    background-color: blue;
+    padding: 10px;
+    column-gap: 1px;
+    row-gap:1px;
+    margin:auto;
+    width:300px;
+    height:300px;
+    border-radius:12px;
+  }
+
+
+  .game_item {
+    background-color: #333333;
+    border: 1px solid #333333;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+    color:white;
+    cursor:pointer;
+    font-family:cursive;
+    width:57px;
+    height:55px;
+    line-height: 50px;
+  }
+
+  h1{
+    text-align:center;
+  }
+  #divbtn {
+    text-align:center;
+    margin:auto;
+  }
+
+
+  #restartBtn{
+    height:60px;
+    background-color: rgb(32, 156, 7);
+    color:white;
+    width:150px;
+    border-radius:12px;
+    font-size:18px;
+    
+  }
+
+  #restartBtn:hover{
+background-color: rgb(8, 211, 96);
+  }
+
+  a{
+    text-decoration: none;
+  }
